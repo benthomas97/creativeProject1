@@ -1,0 +1,68 @@
+/* Menu */
+.bg-dark {
+  background-color: #ffae00 !important;
+}
+
+/* Image Grid */
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+form {
+  padding: 10px;
+}
+
+body {
+  background-color: #ffc038;
+}
+
+.image img {
+  width: 100%;
+  padding: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Lucidia New";
+}
+
+p {
+	font-family: "Lucidia New";
+}
+
+footer {
+	text-align: center;
+	font-family: "Courier New";
+}
+
+footer a {
+	color: black;
+}
+
+
+#centered {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#portrait {
+	width: 25%;
+	height: 50%;
+}
+
+
+
+
+
+.bgSizeContain {
+  width: 160px;
+  height: 160px;
+  border: 2px solid;
+  color: pink;
+  resize: both;
+  overflow: scroll;
+}
